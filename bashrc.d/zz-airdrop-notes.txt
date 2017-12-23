@@ -1,0 +1,18 @@
+This isn't really a bashrc file, but I need to keep notes on this.
+
+According to http://www.tuaw.com/2014/11/25/heres-the-root-cause-and-a-workaround-for-ios-8-and-yosemite-wi/
+
+you can disable airdrop to get wifi working better.
+
+Use this:
+
+sudo ifconfig awdl0 down
+
+You can then turn it on with
+
+sudo ifconfig awdl0 up
+
+
+Hopefully this won't be an issue after Yosemite fixes it's wifi.
+
+2015-01-23

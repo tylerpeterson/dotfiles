@@ -1,0 +1,1 @@
+/Users/ty/Box Sync/bashrc.d/bashrc.d/show-hide-hidden-files-in-finder.sh
