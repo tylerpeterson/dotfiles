@@ -34,4 +34,6 @@ export PS1='%?%~%#'
 # See http://zsh.sourceforge.net/Doc/Release/Options.html
 setopt promptsubst
 
+PATH="$PATH:$HOME/bin"
+
 source ~/.zsh-named-directories
