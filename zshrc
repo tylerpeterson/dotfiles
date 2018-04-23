@@ -1,6 +1,6 @@
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
-export NVM_DIR=/Users/ty/.nvm
+export NVM_DIR=$HOME/.nvm
 
 export EDITOR=vim
 
@@ -27,6 +27,7 @@ function f() { find . -iname "*$1*" ${@:2} }
 
 function r() { grep "$1" ${@:2} -R . }
 
+export PATH=$PATH:$HOME/bin
 # export PS1='%m%#'
 export PS1='%?%~%#'
 
@@ -37,3 +38,19 @@ setopt promptsubst
 PATH="$PATH:$HOME/bin"
 
 source ~/.zsh-named-directories
+
+if [ -d $HOME/.zshrc.d ]; then
+  for x in $HOME/.bashrc.d/* ; do
+    test -f "$x" || test -L "$x" || continue
+    test -x "$x" || test -L "$x" || continue
+    source "$x"
+  done
+fi
+
+if [ -d $HOME/.zshrc.d-local ]; then
+  for x in $HOME/.bashrc.d-local/* ; do
+    test -f "$x" || test -L "$x" || continue
+    test -x "$x" || test -L "$x" || continue
+    source "$x"
+  done
+fi

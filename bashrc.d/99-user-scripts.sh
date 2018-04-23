@@ -1,1 +1,1 @@
-export PATH=$PATH:/Users/ty/bin
+export PATH=$PATH:$HOME/bin
