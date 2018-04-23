@@ -11,6 +11,8 @@ zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/npm", from:oh-my-zsh
 zplug "lukechilds/zsh-nvm"
 zplug "lukechilds/zsh-better-npm-completion", defer:2
+#zplug "wting/autojump" # didn't seem to work
+zplug "plugins/autojump", from:oh-my-zsh
 
 # Actually install plugins, prompt user input
 if ! zplug check --verbose; then
