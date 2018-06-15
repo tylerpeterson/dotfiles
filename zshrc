@@ -29,7 +29,7 @@ function f() { find . -iname "*$1*" ${@:2} }
 
 function r() { grep "$1" ${@:2} -R . }
 
-export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/bin:/usr/local/opt/go/libexec/bin
 # export PS1='%m%#'
 export PS1='%?%~%#'
 
