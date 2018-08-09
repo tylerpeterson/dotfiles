@@ -4,6 +4,7 @@ export NVM_DIR=$HOME/.nvm
 
 export EDITOR=vim
 
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "plugins/vi-mode", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting", defer:1
 zplug "zsh-users/zsh-history-substring-search"
@@ -13,6 +14,7 @@ zplug "lukechilds/zsh-nvm"
 zplug "lukechilds/zsh-better-npm-completion", defer:2
 #zplug "wting/autojump" # didn't seem to work
 zplug "plugins/autojump", from:oh-my-zsh
+zplug "caarlos0/open-pr", use:"*.sh"
 
 # Actually install plugins, prompt user input
 if ! zplug check --verbose; then
@@ -56,3 +58,6 @@ if [ -d $HOME/.zshrc.d-local ]; then
     source "$x"
   done
 fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
