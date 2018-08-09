@@ -44,7 +44,7 @@ PATH="$PATH:$HOME/bin"
 source ~/.zsh-named-directories
 
 if [ -d $HOME/.zshrc.d ]; then
-  for x in $HOME/.bashrc.d/* ; do
+  for x in $HOME/.zshrc.d/* ; do
     test -f "$x" || test -L "$x" || continue
     test -x "$x" || test -L "$x" || continue
     source "$x"
