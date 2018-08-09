@@ -1,8 +1,12 @@
 export ZPLUG_HOME=/usr/local/opt/zplug
-source $ZPLUG_HOME/init.zsh
 export NVM_DIR=$HOME/.nvm
-
 export EDITOR=vim
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
+source $ZPLUG_HOME/init.zsh
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "plugins/vi-mode", from:oh-my-zsh
