@@ -10,6 +10,7 @@ Applications to download and install on a fresh new machine.
 * [DropBox](https://www.dropbox.com/install) -- Install and sign in so that files will start to sync onto the new computer. See 1Password entry "DropBox". [installer 60 for mac](https://dl-web.dropbox.com/installer?build_no=60.4.107&plat=mac&tag=eJwFwbERgDAMA8BVuEyArcgWLEMDRRpSuMyxO_-r1VM15nuNu52bI-VHdgo0mgRFN5IRSTnTtUP4fqvRDdg~%40META&tag_token=ALo2e5JnEJBVYuz2u1pntH2zTKRMAYHv-0ki34EKVFS63A).
 * [Box](https://app.box.com/settings/sync) -- Install and sign in so that files start to sync. See 1Password entry "Box.net, Work". [Box Sync Installer.dmg](https://e3.boxcdn.net/box-installers/sync/Sync+4+External/Box%20Sync%20Installer.dmg).
 * [SetApp]() -- Install and sign in so that you can install from their library. [installer]().
+* [ChronoAgent]() -- Install and sign in so that you can quickly sync files back onto the machine. NOTE: Use only wired connections on the agent and server when transfering many gigabytes of data.
 
 ## Core Tools
 
@@ -32,6 +33,46 @@ Applications to download and install on a fresh new machine.
 * Paste from **SetApp**. CTRL+SHIFT+SPACE (to launch SetApp search) -> "Paste". Let is install. Set up sync with Paste -> Preferences -> Sync -> Enable iCloud Sync. Now you can easily share work between computers you are signed in to. Also, enable direct paste and the paste helper with Paste -> Preferences -> General -> Enable Direct Paste.
 * [Droplr](https://droplr.com/apps/) Download. Unzip. Drag to Applications. Sign in. Now you can easily share annotated screenshots and short videos. [Dropler-224.zip](https://files.droplr.com/apps/mac/Droplr-224.zip).
 * [OmniGraffle](https://www.omnigroup.com/download/) Download latest Pro version. Install. Use for making sweet, sweet diagrams.
+
+## SetApp Apps
+
+* Aeon Timeline -- for making sense of time-oriented data when you're researching trends, or doing a post-mortem.
+* Bartender -- because status bars can't fit all the nifty apps I buy.
+* Base -- because SQLite is the magic balance between JSON in plain-text, and running a local MySQL server.
+* BetterTouchTool -- because sometimes you just want to make a funky guesture that repeats a tedious task for you.
+* BetterZip -- because it makes automating treatment of archives easy, and sometimes you just want to look inside the archive and not inflate it.
+* Blogo -- because recruiters gotta blog. And it can be fun, too.
+* BusyCal -- because interacting with Exchange and Google Calendars together using Outlook or Apple Calendar is a pain.
+* Canary Mail -- because the NSA needs to spend some time cracking the encryption on my salsa recipe.
+* CleanMyMac X -- because even a clean install of OS X has a lot of wasted space in it that you can reclaim.
+* CodeRunner -- because Dropzone tasks in python are nice to edit in CodeRunner.
+* Downie -- because YouTube isn't available when you need it most.
+* Dropzone -- because complex renaming rules are better left in a program that you can easily drop targets onto.
+* Expressions -- because Regular Expressions are super useful and testing them is imperative.
+* Gemini -- because over time you make defensive copies of your files that eventually you ought to find and clean up.
+* Jump Desktop -- because knowing anything about computers means you have to provide technical support to everyone you know and love that knows less than you about computers.
+* KeyKey Typing Tutor -- because Dvorak isn't just a composer and all the cool kids know that. You want to be cool... someday.
+* Marked -- because you need to render all that markdown you wrote.
+* Mosaic -- for tiling your windows about.
+* Noizio -- because sometimes the best way to think is with the right noise.
+* Numi -- because calculators should be more like programming.
+* Paste -- already installed above.
+* Paw -- because poking api's over http will be with us forever.
+* Squash -- because sometimes you just want to quickly optimize and image and you don't want to figure out where you install cmozjpeg.
+* Studies -- because there are all sorts of details you really ought to memorize -- no matter how stupid that makes you feel.
+* TaskPaper -- because sometimes you are just going to declare task manager bankruptcy, and while you are getting your affairs in order you need a simple way to keep of the stuff flying at you.
+* Tayasui Sketches -- because the brushes are so beautiful.
+* TextSoap -- because no human should have to make piles of tedious and programmable changes to text.
+* Timing -- because Know Thy Time is still one of the fundamental commandments of professionalism.
+* TripMode -- because people that don't turn off their file-syncing software at conferences are monsters.
+* Typeface -- because some bugs disappear when you install the font with the necessary glyphs, but you need to be able to easily remove and reinstall that font over and over again so that you can verify all sorts of stuff about your products.
+* uBar -- because who *doesn't* want a gratuitous launcher replacement?
+* Unclutter -- because having a sheet of paper to jot notes onto glued to the top of your computer screen is one of those things you never knew you always wanted.
+* Unibox -- because I get way too much email to read all of it, so anything that helps me triage it quickly is awesomesauce.
+* WaitingList -- because you need to look forward to big dates or life will just happen to you, man.
+* Wallpaper Wizard -- because the same dog face, however cute, stops to be delightful if you look at it too much. Put a carousel of those things on your wallpaper.
+* Workspaces -- because those reports you run once a month would go faster if you kept track of the tools and sites you needed to visit in order to write them.
+* World Clock Pro -- because I will never remember how to do the math to convert UTC into my own timezone. Never.
 
 ## App Store Apps
 
