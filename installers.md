@@ -33,6 +33,39 @@ Applications to download and install on a fresh new machine.
 * [Droplr](https://droplr.com/apps/) Download. Unzip. Drag to Applications. Sign in. Now you can easily share annotated screenshots and short videos. [Dropler-224.zip](https://files.droplr.com/apps/mac/Droplr-224.zip).
 * [OmniGraffle](https://www.omnigroup.com/download/) Download latest Pro version. Install. Use for making sweet, sweet diagrams.
 
+## App Store Apps
+
+Make sure the following purchases are installed from the App Store:
+
+* Keynote -- a presentation alternative to PowerPoint
+* Pages -- a word processing alternative to MS Word.
+* Numbers -- a table-oriented document alternative to Excel.
+* CreatorQR -- For creating 2 dimensional bar-codes that you can print out and post on things. Makes it more convenient to remember/access a url based on location.
+* PopClip -- For easily copying and processing highlighted text. Make sure to integrate with TextSoap from SetApp.
+* Due -- for pleasant reminders and countdowns that sync with my phone.
+* Mousepose -- for creating a clean space to make presentations from my laptop.
+* Notability -- for better sketch support in a notebook than Evernote, secured notebooks, and syncing with my other devices.
+* GIF Brewery -- for more control in making GIFs than other free tools.
+* Quiver -- for excellent coding notes.  NOTE: Set sync location to `~/Dropbox/Not Apps/Quiver/Quiver.qvlibrary`.  It gets corrupted sometimes when opened simultaneously on multiple machines, so include that directory in time machine backups and habitually close the app. Kinda dumb, but still a great notebook.
+* FullContact -- for merging contact information and easily filling in missing details about people.
+* Day One -- For a wonderful journal. Use it for recording a diary, or just free writing while working through a problem. Put pictures in it. Make more small entries.
+* DaisyDisk -- For tracking down big files, or old ones you don't need. Perhaps Clean My Mac could replace this, but this simple app is better at it's one job that Clean My Mac is.
+* Microsoft OneNote -- Maybe. Already have Evernote and Notability. But try to be a good boy and use MS for work related stuff.
+* OneDrive -- For storing copies of your work documents in the MS Cloud. Protects your work from loss and good for the company.
+* Slack -- because everyone else is doing it.
+* Color Picker -- because you sometimes need to.
+* Howler Timer -- because it is campy and is lower stress for people when it has to cut them off in a meeting.
+* iA Writer -- because no MarkDown editor is so awesome that I only need one.
+* Byword -- because... MarkDown.
+* Sauce -- For cross browser testing in the cloud.
+* Skitch -- for marking up pictures that I want to keep around in Evernote.
+* CheatSheet -- because keyboard shortcuts are awesome to know, and impossible to learn.
+* myPoint Light S -- because it's a wide, wide world and mouse pointers get lost out there.
+* Droplr -- because you bought the service when it was cheap, and if you stop paying now it will go back to full price. So find some way to make use of it.
+* Xcode -- because you know you are going to want to use iOS device simulators.
+* Evernote -- because you have too many notes in there to think of consolidating to one cloud notebook.
+* Twitter -- because all the cool people do it. And even though you don't, really, you can't admit to yourself that you'll never be that cool.
+
 ## Odds and Ends
 
 * [Cisco Umbrella Root CA](https://docs.umbrella.com/deployment-umbrella/docs/rebrand-cisco-certificate-import-information) -- Search page for "Install the CA on Mac". Follow stepts. -- Without this cert, the web application for Droplr is untrusted in chrome when you access it on the corporate LAN. If you install the cert then you can use the site. Don't love messing with the trusted certs, so I should only do this to get around the problem when it happens. Avoid this step if you can. [Cisco_Umbrella_Root_CA.cer](https://d36u8deuxga9bo.cloudfront.net/certificates/Cisco_Umbrella_Root_CA.cer). [See also](https://support.umbrella.com/hc/en-us/articles/230903768--Your-connection-is-not-private-or-Cannot-connect-to-the-real-domain-com-HSTS-and-Pinning-Certificate-Errors-).
