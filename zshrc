@@ -5,7 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-export ZPLUG_HOME=/usr/local/opt/zplug
 export NVM_DIR=$HOME/.nvm
 export EDITOR=vim
 
@@ -21,31 +20,6 @@ if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
 
-source $ZPLUG_HOME/init.zsh
-
-zplug romkatv/powerlevel10k, as:theme, depth:1
-zplug 'zplug/zplug', hook-build:'zplug --self-manage'
-zplug "plugins/vi-mode", from:oh-my-zsh
-zplug "zsh-users/zsh-syntax-highlighting", defer:1
-zplug "zsh-users/zsh-history-substring-search"
-zplug "plugins/git", from:oh-my-zsh
-zplug "plugins/npm", from:oh-my-zsh
-zplug "lukechilds/zsh-nvm"
-zplug "lukechilds/zsh-better-npm-completion", defer:2
-#zplug "wting/autojump" # didn't seem to work
-zplug "plugins/autojump", from:oh-my-zsh
-zplug "caarlos0/open-pr", use:"*.sh"
-
-# Actually install plugins, prompt user input
-if ! zplug check --verbose; then
-    printf "Install zplug plugins? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
-
-zplug load --verbose
-#zplug load
 
 function f() { find . -iname "*$1*" ${@:2} }
 
@@ -83,3 +57,37 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+### Added by Zinit's installer
+if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
+    print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
+    command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
+    command git clone https://github.com/zdharma/zinit "$HOME/.zinit/bin" && \
+        print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
+        print -P "%F{160}▓▒░ The clone has failed.%f%b"
+fi
+
+source "$HOME/.zinit/bin/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zinit-zsh/z-a-as-monitor \
+    zinit-zsh/z-a-patch-dl \
+    zinit-zsh/z-a-bin-gem-node
+
+### End of Zinit's installer chunk
+
+zinit ice depth=1; zinit light romkatv/powerlevel10k
+zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
+#zinit "zsh-users/zsh-syntax-highlighting", defer:1
+#zinit "zsh-users/zsh-history-substring-search"
+zinit snippet OMZ::plugins/git/git.plugin.zsh
+zinit snippet OMZ::plugins/npm/npm.plugin.zsh
+#zinit "lukechilds/zsh-nvm"
+#zinit "lukechilds/zsh-better-npm-completion", defer:2
+zinit snippet OMZ::plugins/autojump/autojump.plugin.zsh
+#zinit "caarlos0/open-pr", use:"*.sh"
+
