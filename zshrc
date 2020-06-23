@@ -86,8 +86,8 @@ zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
 #zinit "zsh-users/zsh-history-substring-search"
 zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit snippet OMZ::plugins/npm/npm.plugin.zsh
-#zinit "lukechilds/zsh-nvm"
-#zinit "lukechilds/zsh-better-npm-completion", defer:2
+export NVM_LAZY_LOAD=true
+zinit load lukechilds/zsh-nvm
 # must brew install autojump before this plugin will work
 zinit snippet OMZ::plugins/autojump/autojump.plugin.zsh
 #zinit "caarlos0/open-pr", use:"*.sh"
