@@ -88,6 +88,7 @@ zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit snippet OMZ::plugins/npm/npm.plugin.zsh
 #zinit "lukechilds/zsh-nvm"
 #zinit "lukechilds/zsh-better-npm-completion", defer:2
+# must brew install autojump before this plugin will work
 zinit snippet OMZ::plugins/autojump/autojump.plugin.zsh
 #zinit "caarlos0/open-pr", use:"*.sh"
 
