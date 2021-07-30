@@ -1,3 +1,5 @@
+brew install --cask macvim # don't use the regular formula. It will interfere.
+
 zsh
 autojump
 
