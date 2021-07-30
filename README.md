@@ -19,3 +19,5 @@ Nothing fancy right now.
 
     # Set up zsh
     touch ~/.zsh-named-directories
+    # after installing iTerm, run the following to install the nerd font p10k needs
+    p10k configure
