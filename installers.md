@@ -102,7 +102,6 @@ Make sure the following purchases are installed from the App Store:
 * Notability -- for better sketch support in a notebook than Evernote, secured notebooks, and syncing with my other devices.
 * GIF Brewery -- for more control in making GIFs than other free tools.
 * Quiver -- for excellent coding notes.  NOTE: Set sync location to `~/Dropbox/Not Apps/Quiver/Quiver.qvlibrary`.  It gets corrupted sometimes when opened simultaneously on multiple machines, so include that directory in time machine backups and habitually close the app. Kinda dumb, but still a great notebook.
-* FullContact -- for merging contact information and easily filling in missing details about people.
 * Day One -- For a wonderful journal. Use it for recording a diary, or just free writing while working through a problem. Put pictures in it. Make more small entries.
 * DaisyDisk -- For tracking down big files, or old ones you don't need. Perhaps Clean My Mac could replace this, but this simple app is better at it's one job that Clean My Mac is.
 * Microsoft OneNote -- Maybe. Already have Evernote and Notability. But try to be a good boy and use MS for work related stuff.
