@@ -21,3 +21,6 @@ Nothing fancy right now.
     touch ~/.zsh-named-directories
     # after installing iTerm, run the following to install the nerd font p10k needs
     p10k configure
+    # after installing zsh with homebrew
+    # set custom shell in iterm to /usr/local/bin/zsh
+
