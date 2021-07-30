@@ -112,7 +112,6 @@ Make sure the following purchases are installed from the App Store:
 * iA Writer -- because no MarkDown editor is so awesome that I only need one.
 * Byword -- because... MarkDown.
 * Sauce -- For cross browser testing in the cloud.
-* Skitch -- for marking up pictures that I want to keep around in Evernote.
 * CheatSheet -- because keyboard shortcuts are awesome to know, and impossible to learn.
 * myPoint Light S -- because it's a wide, wide world and mouse pointers get lost out there.
 * Droplr -- because you bought the service when it was cheap, and if you stop paying now it will go back to full price. So find some way to make use of it.
