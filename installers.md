@@ -64,6 +64,7 @@ Applications to download and install on a fresh new machine.
 * Timing -- because Know Thy Time is still one of the fundamental commandments of professionalism.
 * Typeface -- because some bugs disappear when you install the font with the necessary glyphs, but you need to be able to easily remove and reinstall that font over and over again so that you can verify all sorts of stuff about your products.
 * World Clock Pro -- because I will never remember how to do the math to convert UTC into my own timezone. Never.
+* Lungo -- Keep my computer awake
 
 ### Honorable Mentions
 
