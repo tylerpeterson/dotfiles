@@ -51,7 +51,7 @@ Applications to download and install on a fresh new machine.
 * Jump Desktop -- because knowing anything about computers means you have to provide technical support to everyone you know and love that knows less than you about computers.
 * Marked -- because you need to render all that markdown you wrote.
 * Mosaic -- for tiling your windows about.
-* Noizio -- because sometimes the best way to think is with the right noise.
+* Noizio -- because sometimes the best way to think is with the right noise. Seems to sync mixes automatically from older installations.
 * Numi -- because calculators should be more like programming.
 * Paste -- already installed above.
 * Paw -- because poking api's over http will be with us forever.
