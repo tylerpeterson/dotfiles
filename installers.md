@@ -9,7 +9,7 @@ Applications to download and install on a fresh new machine.
 * [Homebrew](https://brew.sh/) -- Can just run the script: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` Gets you ready to install open source tools.
 * [DropBox](https://www.dropbox.com/install) -- Install and sign in so that files will start to sync onto the new computer. See 1Password entry "DropBox". [installer 60 for mac](https://dl-web.dropbox.com/installer?build_no=60.4.107&plat=mac&tag=eJwFwbERgDAMA8BVuEyArcgWLEMDRRpSuMyxO_-r1VM15nuNu52bI-VHdgo0mgRFN5IRSTnTtUP4fqvRDdg~%40META&tag_token=ALo2e5JnEJBVYuz2u1pntH2zTKRMAYHv-0ki34EKVFS63A).
 * OneDrive -- Preinstalled on corporate image. Just sign in. Prefer storing work-files here.
-* [SetApp]() -- Install and sign in so that you can install from their library. [installer](https://setapp.com/download).
+* [SetApp](https://setapp.com/) -- Install and sign in so that you can install from their library. [installer](https://setapp.com/download).
 * [ChronoAgent]() -- Install and sign in so that you can quickly sync files back onto the machine. NOTE: Use only wired connections on the agent and server when transfering many gigabytes of data.
 
 ## Core Tools
