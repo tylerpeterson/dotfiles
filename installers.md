@@ -43,6 +43,9 @@ Applications to download and install on a fresh new machine.
     * Follow this [migration guide](https://support.busymac.com/help/98887-how-do-i-migrate-from-an-old-computer-to-a-new-computer) to expedite syncing and setting up accounts.
 * BusyContacts -- great for taking notes when keeping in touch -- see migration guide above
 * CleanMyMac X -- because even a clean install of OS X has a lot of wasted space in it that you can reclaim.
+* CleanShot X -- Great screenshot tool. Does everything I used to rely on Clarify or Droplr for.
+    * Follow instructions to let it be the default screen-shot tool
+    * Add CMD-SHIFT-7 as shortcut for scrolling capture.
 * Downie -- because YouTube isn't available when you need it most.
 * Expressions -- because Regular Expressions are super useful and testing them is imperative.
 * Jump Desktop -- because knowing anything about computers means you have to provide technical support to everyone you know and love that knows less than you about computers.
