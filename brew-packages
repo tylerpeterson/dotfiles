@@ -1,4 +1,4 @@
-brew install --cask macvim # don't use the regular formula. It will interfere.
+brew install --cask macvim # don't use the regular formula. It will interfere. Also listed in installers file.
 
 zsh
 autojump
