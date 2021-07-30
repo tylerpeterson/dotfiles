@@ -40,6 +40,7 @@ Applications to download and install on a fresh new machine.
 * Base -- because SQLite is the magic balance between JSON in plain-text, and running a local MySQL server.
 * BusyCal -- because interacting with Exchange and Google Calendars together using Outlook or Apple Calendar is a pain.
     * Follow this [migration guide](https://support.busymac.com/help/98887-how-do-i-migrate-from-an-old-computer-to-a-new-computer) to expedite syncing and setting up accounts.
+* BusyContacts -- great for taking notes when keeping in touch -- see migration guide above
 * CleanMyMac X -- because even a clean install of OS X has a lot of wasted space in it that you can reclaim.
 * Downie -- because YouTube isn't available when you need it most.
 * Expressions -- because Regular Expressions are super useful and testing them is imperative.
