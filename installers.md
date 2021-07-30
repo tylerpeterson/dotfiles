@@ -60,6 +60,7 @@ Applications to download and install on a fresh new machine.
 * Studies -- because there are all sorts of details you really ought to memorize -- no matter how stupid that makes you feel.
 * TaskPaper -- because sometimes you are just going to declare task manager bankruptcy, and while you are getting your affairs in order you need a simple way to keep of the stuff flying at you.
 * TextSoap -- because no human should have to make piles of tedious and programmable changes to text.
+* TextSnipter -- for copying text that is actually an image -- like copying text from a screen cast.
 * Timing -- because Know Thy Time is still one of the fundamental commandments of professionalism.
 * Typeface -- because some bugs disappear when you install the font with the necessary glyphs, but you need to be able to easily remove and reinstall that font over and over again so that you can verify all sorts of stuff about your products.
 * World Clock Pro -- because I will never remember how to do the math to convert UTC into my own timezone. Never.
