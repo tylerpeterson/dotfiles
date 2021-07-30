@@ -55,6 +55,7 @@ Applications to download and install on a fresh new machine.
 * Numi -- because calculators should be more like programming.
 * Paste -- already installed above.
 * Paw -- because poking api's over http will be with us forever.
+* Auxl -- More api manipulating tools.
 * Squash -- because sometimes you just want to quickly optimize and image and you don't want to figure out where you install cmozjpeg.
 * Studies -- because there are all sorts of details you really ought to memorize -- no matter how stupid that makes you feel.
 * TaskPaper -- because sometimes you are just going to declare task manager bankruptcy, and while you are getting your affairs in order you need a simple way to keep of the stuff flying at you.
