@@ -16,3 +16,6 @@ Nothing fancy right now.
     git clone https://github.com/junegunn/vim-plug.git ~/dev/alien/vim-plug
     ln -s ~/dev/alien/vim-plug/plug.vim ~/.vim/autoload
     # launch vim and run :PlugInstall
+
+    # Set up zsh
+    touch ~/.zsh-named-directories
