@@ -31,6 +31,7 @@ Applications to download and install on a fresh new machine.
 * [TextExpander](https://textexpander.com/) [Download](https://textexpander.com/download) [Log In Information](onepassword://search/4ofizs42zvdf7job5ccx4trtda) 
 * Paste from **SetApp**. CTRL+SHIFT+SPACE (to launch SetApp search) -> "Paste". Let is install. Set up sync with Paste -> Preferences -> Sync -> Enable iCloud Sync. Now you can easily share work between computers you are signed in to. Also, enable direct paste and the paste helper with Paste -> Preferences -> General -> Enable Direct Paste.
 * [Droplr](https://droplr.com/apps/) Download. Unzip. Drag to Applications. Sign in. Now you can easily share annotated screenshots and short videos. [Dropler-224.zip](https://files.droplr.com/apps/mac/Droplr-224.zip).
+    * Should I just use CleanShot for the shot, and OneDrive for a shareable link?
 * Unclutter from **SetApp**. CTRL+SHIFT+SPACE -> "Unclutter". Let it install. Open the preferences and set the file and note locations to `~/Dropbox/Not Apps/Unclutter-Patrujo`
 * [OmniGraffle](https://www.omnigroup.com/download/) Download latest Pro version. Install. Use for making sweet, sweet diagrams.
 
