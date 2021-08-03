@@ -5,3 +5,5 @@ autojump
 
 brew tap heroku/brew && brew install heroku
 
+pdfgrep # for renaming ATI files
+
