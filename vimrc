@@ -3,6 +3,7 @@ colorscheme desert
 set incsearch
 set hls
 set guifont=Menlo-Regular:h20
+au BufRead,BufNewFile *.md.txt setfiletype markdown
 
 set shiftwidth=2 expandtab smartindent autoindent tabstop=2
 
