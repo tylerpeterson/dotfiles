@@ -2,6 +2,7 @@ colorscheme desert
 
 set incsearch
 set hls
+set guifont=Menlo-Regular:h20
 
 set shiftwidth=2 expandtab smartindent autoindent tabstop=2
 
