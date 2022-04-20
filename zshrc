@@ -5,7 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-export NVM_DIR=$HOME/.nvm
 export EDITOR=vim
 
 # output from `brew shellenv`
@@ -86,9 +85,10 @@ zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
 #zinit "zsh-users/zsh-history-substring-search"
 zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit snippet OMZ::plugins/npm/npm.plugin.zsh
-export NVM_LAZY_LOAD=true
-zinit load lukechilds/zsh-nvm
 # must brew install autojump before this plugin will work
 zinit snippet OMZ::plugins/autojump/autojump.plugin.zsh
 #zinit "caarlos0/open-pr", use:"*.sh"
+
+eval "$(fnm env --use-on-cd)"
+. /usr/local/share/zsh/site-functions
 
