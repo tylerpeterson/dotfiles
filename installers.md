@@ -17,7 +17,8 @@ Applications to download and install on a fresh new machine.
 * [zsh](http://zsh.sourceforge.net/) -- comes preinstalled on Mac now
 * [OmniFocus](https://www.omnigroup.com/download/) -- Select latest Pro version for Mac. Sign in to get tasks syncing. See 1Password entry "OmniSync". [Omni Group Downloads](http://downloads.omnigroup.com/software/MacOSX/)
 * Warp -- `brew install --cask warp`
-* [MacVim](https://github.com/macvim-dev/macvim/releases) Install with `brew install --cask macvim`. 
+* [MacVim](https://github.com/macvim-dev/macvim/releases) Install with `brew install --cask macvim`.
+* Jabra Direct: `brew install --cask jabra-direct`
 
 ## Additional Development Tools
 
