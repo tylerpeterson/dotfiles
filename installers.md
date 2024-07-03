@@ -34,6 +34,7 @@ Applications to download and install on a fresh new machine.
     * Should I just use CleanShot for the shot, and OneDrive for a shareable link?
 * Unclutter from **SetApp**. CTRL+SHIFT+SPACE -> "Unclutter". Let it install. Open the preferences and set the file and note locations to `~/Dropbox/Not Apps/Unclutter-Patrujo`
 * [OmniGraffle](https://www.omnigroup.com/download/) Download latest Pro version. Install. Use for making sweet, sweet diagrams.
+* [OmniOutliner](https://www.omnigroup.com/download/) Download latest Pro version. Install. Use for awesome outlines, especially for Calibration meeting.
 
 ## SetApp Apps
 
