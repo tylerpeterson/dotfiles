@@ -37,6 +37,7 @@ Applications to download and install on a fresh new machine.
 * Unclutter from **SetApp**. CTRL+SHIFT+SPACE -> "Unclutter". Let it install. Open the preferences and set the file and note locations to `~/Dropbox/Not Apps/Unclutter-Patrujo`
 * [OmniGraffle](https://www.omnigroup.com/download/) Download latest Pro version. Install. Use for making sweet, sweet diagrams.
 * [OmniOutliner](https://www.omnigroup.com/download/) Download latest Pro version. Install. Use for awesome outlines, especially for Calibration meeting.
+* PopClip: `brew install --cask popclip` -- For easily copying and processing highlighted text. Make sure to integrate with TextSoap from SetApp.
 
 ## SetApp Apps
 
@@ -99,7 +100,6 @@ Make sure the following purchases are installed from the App Store:
 * Pages -- a word processing alternative to MS Word.
 * Numbers -- a table-oriented document alternative to Excel.
 * CreatorQR -- For creating 2 dimensional bar-codes that you can print out and post on things. Makes it more convenient to remember/access a url based on location.
-* PopClip -- For easily copying and processing highlighted text. Make sure to integrate with TextSoap from SetApp.
 * Due -- for pleasant reminders and countdowns that sync with my phone.
 * Mousepose -- for creating a clean space to make presentations from my laptop.
 * Notability -- for better sketch support in a notebook than Evernote, secured notebooks, and syncing with my other devices.
