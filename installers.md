@@ -28,7 +28,7 @@ Applications to download and install on a fresh new machine.
 * [MS Office](https://www.office.com/) Click "Install Office" -> "Office 365 Apps". People are going to give you office documents and it's just more effective to use the real apps to interact with them. [Microsoft_Office_16_Installer.pkg](https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_16.18.18101400_Installer.pkg)
 * [Alfred](https://www.alfredapp.com/) -- `brew install --cask alfred` Activate with license. Search 1Password for "Alfred Mega Supporter License".
 * Run `~/.dotfiles/import-alfred-searches.sh` now that Alfred is installed.
-* [TextExpander](https://textexpander.com/) [Download](https://textexpander.com/download) [Log In Information](onepassword://search/4ofizs42zvdf7job5ccx4trtda) 
+* [TextExpander](https://textexpander.com/) `brew install --cask textexpander` [Log In Information](onepassword://search/4ofizs42zvdf7job5ccx4trtda) 
 * Paste from **SetApp**. CTRL+SHIFT+SPACE (to launch SetApp search) -> "Paste". Let is install. Set up sync with Paste -> Preferences -> Sync -> Enable iCloud Sync. Now you can easily share work between computers you are signed in to. Also, enable direct paste and the paste helper with Paste -> Preferences -> General -> Enable Direct Paste.
 * [Droplr](https://droplr.com/apps/) Download. Unzip. Drag to Applications. Sign in. Now you can easily share annotated screenshots and short videos. [Dropler-224.zip](https://files.droplr.com/apps/mac/Droplr-224.zip).
     * Should I just use CleanShot for the shot, and OneDrive for a shareable link?
