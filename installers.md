@@ -21,7 +21,7 @@ Applications to download and install on a fresh new machine.
 
 ## Additional Development Tools
 
-* [Sourcetree](https://www.sourcetreeapp.com/) -- Download. Unzip. Drag to Applications. [Sourcetree_3.0.zip](https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.0_200.zip?_ga=2.120251662.764915753.1541008431-1226971220.1541008431)
+* [Sourcetree](https://www.sourcetreeapp.com/) -- `brew install --cask sourcetree`
 
 ## Additional Office Tools
 
