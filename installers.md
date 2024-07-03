@@ -24,6 +24,7 @@ Applications to download and install on a fresh new machine.
 ## Additional Development Tools
 
 * [Sourcetree](https://www.sourcetreeapp.com/) -- `brew install --cask sourcetree`
+* [VS Code](https://code.visualstudio.com/)
 
 ## Additional Office Tools
 
