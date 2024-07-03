@@ -14,7 +14,7 @@ Applications to download and install on a fresh new machine.
 
 ## Core Tools
 
-* [zsh](http://zsh.sourceforge.net/) -- optional -- `brew install zsh`. Mac comes with a version of ZSH, but when you brew install it then you get something several minor revisions newer. I don't have to install a plugin manager. Zinit will install itself the first time `zshrc` is run.
+* [zsh](http://zsh.sourceforge.net/) -- comes preinstalled on Mac now
 * [OmniFocus](https://www.omnigroup.com/download/) -- Select latest Pro version for Mac. Sign in to get tasks syncing. See 1Password entry "OmniSync". [Omni Group Downloads](http://downloads.omnigroup.com/software/MacOSX/)
 * [iTerm](https://iterm2.com/downloads.html) -- Download. Unzip. Drag to Applications. Configure it to launch `zsh` instead of default bash. Preferences [CMD+,] -> Profiles -> Command `/usr/local/bin/zsh` (The brew version -- it's a little newer). You can use the built-in zsh at `/bin/zsh`, too. [iTerm2-3_2_4.zip](https://iterm2.com/downloads/stable/iTerm2-3_2_4.zip)TODO can this preference be set from the command line? 
 * [MacVim](https://github.com/macvim-dev/macvim/releases) Install with `brew install --cask macvim`. 
