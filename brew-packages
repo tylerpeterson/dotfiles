@@ -1,6 +1,6 @@
 brew install --cask macvim # don't use the regular formula. It will interfere. Also listed in installers file.
 
-zsh
+fnm
 autojump
 
 brew tap heroku/brew && brew install heroku
