@@ -7,13 +7,7 @@ fi
 
 export EDITOR=vim
 
-# output from `brew shellenv`
-export HOMEBREW_PREFIX="/usr/local"
-export HOMEBREW_CELLAR="/usr/local/Cellar"
-export HOMEBREW_REPOSITORY="/usr/local/Homebrew"
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
-export MANPATH="/usr/local/share/man:$MANPATH"
-export INFOPATH="/usr/local/share/info:$INFOPATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
